@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>QuISP</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white py-4 shadow-lg" style="box-shadow: 0px 1px 10px #999;">
+
+      <div class="mx-auto">
+        <a class="navbar-brand tohide" href="index.html">
+            <img src="img/quisp_logo.png" width="50px" class="d-inline-block" alt="">
+        </a>
+        <a class="navbar-brand" href="index.html">
+            QuISP
+        </a>
+
+      </div>
+  
+<!--       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="#">Members</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Example
+                </a>
+                <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Ex.1</a>
+                  <a class="dropdown-item" href="#">Ex.2</a>
+                  <a class="dropdown-item" href="#">Ex.3</a>
+                  <a class="dropdown-item" href="#">Ex.4</a>
+                  <a class="dropdown-item" href="#">Ex.5</a>
+                </div>
+              </li>
+
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="#">Collaboration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Contact Us</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>-->
+      </nav>
+
+      <header>
+        <section >
+            <span class="skewed"></span>
+        </section>
+    </header>
+    <script type="text/javascript">
+        var skewed = document.querySelector('.skewed');
+        window.addEventListener('scroll', function(){
+            var value = -10 + window.scrollY/60;
+            skewed.style.transform = "skewY("+ value +"deg)"
+        })
+    </script>
+
+<div class="container">
+    <!-- Tabs with icons on Card -->
+<div class="card card-nav-tabs">
+    <div class="card-header card-header-primary">
+        <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+        <div class="nav-tabs-navigation">
+            <div class="nav-tabs-wrapper">
+                <h1 class="text-gra text-center">QuISP - Quantum Internet Simulation Package - </h1>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-sm-1">
+
+          </div>
+          <div class="col-sm-2 my-auto mx-auto">
+            <img class="my-auto mx-auto img-fluid" src="./img/AQUA_logo_black.png", width="100%" , alt="aqua_logo", title="AQUA">
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-7">
+            <h1 class="font-weight-normal">Overview</h1>
+            <hr>
+            <p  class="font-weight-light">
+                <p> The Quantum Internet Simulation Package (QuISP) is an event-driven simulation of quantum repeater networks, which will be the foundation <br>
+                    of the coming Quantum Internet.  The goal of QuISP is to simulate a full Quantum Internet consisting of up to 100 networks of up to 100 nodes each. <br>
+                    Its focus is on protocol design and emergent behavior of complex, heterogeneous networks at large scale, while keeping the physical layer as realistic as possible.</p>
+                    
+                    <p>QuISP is a product of the Advancing Quantum Architecture (AQUA) research group headed by Prof. Rodney Van Meter, at Keio University's Shonan Fujisawa Campus, Fujisawa, Japan.
+                    See <a href="http://aqua.sfc.wide.ad.jp" target="_blank">http://aqua.sfc.wide.ad.jp</a> and the list of <a href="https://github.com/sfc-aqua/QuISP/blob/master/Authors.md" target="_blank">Authors</a>.</p>
+            </p>
+          </div>
+          <div class="col-sm-1">
+
+          </div>
+        </div>
+    </div>
+
+    
+    
+<!-- Demo section -->
+<br>
+
+<br>
+<div class="demo mx-auto text-center">
+    <video src="img/EntanglementSwapping_Realistic_Layer2_Star_Sep_Test.mp4" controls width="80%"></video>
+</div>
+<br>
+<p  class="font-weight-light text-center">
+    Caption
+</p>
+
+<br>
+<hr width="100%" style="text-align: center;">
+<br>
+
+<div class="container" style="margin-top: 50px;">
+    <div class="row">
+      <div class="col-sm-1">
+
+      </div>
+
+      <div class="col-sm-10">
+        <h1 class="font-weight-normal">Research Questions</h1>
+        <hr>
+        <div  class="font-weight-light">
+            <p> A simulator is one or more of three things: a time machine, an X-ray machine, or a telescope. </p>
+            <p> Research questions we hope to answer:</p>
+            <ul>
+                <li> Emergent behavior
+                    <ul> 
+                        <li> Classical networks exhibit <em> congestion collapse </em>; are quantum networks subject to the same thing? </li>
+                        <li> Will the dynamics of large networks prevent us from making end-to-end connections under realistic scenarios, <br>
+                        even when a naive model suggests it should be possible? </li>
+                        <li> Are there  other unexpected behaviors in large-scale networks? </li>
+                    </ul>
+                </li>
+                <br>
+                <li> Protocol design 
+                    <ul>
+                        <li> Testing of detailed protocol designs to validate correct operations </li>
+                        <li> Are there interactions between the classical and quantum portions of the network? </li>
+                    </ul>
+                </li>
+                <br>
+                <li> Connection architecture and performance prediction
+                    <ul>
+                        <li> All three proposed network generations exhibit complex behavior that makes analytic prediction of performance <br>
+                        difficult with realistic parameters; simulation, of course, will require the best effort we can make at validation, as well. </li>
+                    </ul>
+                </li>
+                <br>
+                <li> Dynamic behavior
+                    <ul>
+                        <li> Are networks stable as conditions change? </li>
+                        <li> When a topology change occurs, how the protocol respond? </li>
+                        <li> Network traffic will be dynamic; can our multiplexing and resource manangement protocols adapt so that new connections are given service <br>
+                        in a resonable time, and ongoing connections continue to receive expected levels? </li>
+                    </ul>
+                </li>    
+            </ul>
+        </div>
+      </div>
+      <div class="col-sm-1">
+
+      </div>
+    </div>
+</div>
+
+<br>
+<hr width="100%" style="text-align: center;">
+<br>
+
+<div class="container" style="margin-top: 50px;">
+    <div class="row">
+      <div class="col-sm-1">
+
+      </div>
+
+      <div class="col-sm-10">
+        <h1 class="font-weight-normal">Simulation Goals</h1>
+        <hr>
+        <div  class="font-weight-light">
+            <p> We have a number of long-term goals for development of the simulator:</p>
+            <ul>
+                <li> Complex network topologies, including the notion of network boundaries and heterogeneity at the physical level and logical levels </li>
+                <li> Support 1G, 2G, and 3G quantum networks, utilizing either purify-and-swap(1G) or quantum-error-corrected (QEC)(2G and 3G) protocols for managing errors </li>
+                <li> Distinct link architectures: memory-to-memory(MM), midpoint interference(MIM), and midpoint source(MSM), sneakernet, and satellite </li>
+                <li> Internetworking protocols for connecting different types of networks </li>
+                <li> Various applications running in complex traffic patterns </li>
+            </ul>
+            
+            <p> Because these protocols can result in hundreds of qubits in a single entangled state, and the entire system may consist of up to a million qubits, 
+            simulation at the physical Hamiltonian level or even just above that at the unitary (gate, e.g. CNOT) level is infeasible.  We cannot calculate and store full density matrices for such states. 
+            Instead, like simulators for large-scale error correction, QuISP operates primarily on <i> error basis </i>, in which we maintain a description of errors the states have incurred rather than the full state. 
+            However, unlike most QEC simulators, QuISP supports non-Pauli errors, in a limited fashion. </p>
+            
+            <p>QuISP is almost endlessly configurable; for example, it is possible to set not only different lengths for different links in the network, but also different gate error rates and memory lifetimes on individual qubits.
+            Non-Pauli errors that are at least partially supported in the current release include qubit loss, relaxation to ground state, excitation to excited state and complete mixing. </p>
+            
+            <p> If you are unfamiliar with the research literature or the terminology above, go to <a href="https://github.com/sfc-aqua/QuISP/blob/master/doc/References.md" target="_blank">references</a> of this simulator. </p>
+            <p> In addition, we aim to make simulations run on QuISP <i> completely reproducible </i> to the extent humanly possible.  It will be possible for others to verify work done using QuISP, if they have the name of the QuISP release,
+            version numbers for supporting software, the <code>.ini</code> file, any changed <code>.ned</code> files, and the seed for the pseudo-random number generator. </p>
+        </div>
+        
+        </div>
+      </div>
+      <div class="col-sm-1">
+
+      </div>
+    </div>
+
+
+<br>
+<hr width="100%" style="text-align: center;">
+<br>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-sm-1">
+    
+          </div>
+    
+          <div class="col-sm-10">
+            <h2 class="font-weight-normal">Is QuISP right for me?</h2>
+            <hr>
+            <div  class="font-weight-light">
+                <p> Fundamentally, the point of QuISP is that <i> networks are much more than point-to-point connections. </i></p>
+            <p> If you want to know about the behavior of systems and networks, to study behavior of links that are too complex for simple analytic equations (especially those with multiple qubits per link) or to contribute to the design of network protocols,
+            QuISP is the simulator for you. If you're trying to adjust detector window timing v. entanglement fidelity, or figure out what Q factor you cavity needs to be, or understand dispersion in a fiber, it might not be. </p>
+            </div>
+            
+            </div>
+          </div>
+          <div class="col-sm-1">
+    
+          </div>
+    </div>
+
+
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-sm-1">
+    
+          </div>
+    
+          <div class="col-sm-10">
+            <h2 class="font-weight-normal"> I would like to use QuISP, but I have no idea where to start.</h2>
+            <hr>
+            <div  class="font-weight-light">
+
+                <p> If you're looking for the link to GitHub repository, here is the <a href="https://github.com/sfc-aqua/quisp" target="_blank">link</a>. 
+                    Also, you can begin with watching the introductory <a href=" " target="_blank">video</a> for new QuISP users. <br>
+                    Or, if you are more interested in the background knowledge of quantum networking and this simulator, I recommend you to go to <a href="https://github.com/sfc-aqua/QuISP/blob/master/doc/References.md" target="_blank">references</a> page. </p>
+            
+            </div>
+            
+            </div>
+          </div>
+          <div class="col-sm-1">
+    
+          </div>
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-sm-1">
+    
+          </div>
+    
+          <div class="col-sm-10">
+            <h2 class="font-weight-normal"> How can I install QuISP? </h2>
+            <hr>
+            <div  class="font-weight-light">
+
+                <p> There are three ways to do that.
+                    <a href="https://github.com/sfc-aqua/quisp/blob/master/doc/INSTALL.md" target="_blank"> Installing from source</a>,
+                    <a href="https://github.com/sfc-aqua/quisp/blob/master/doc/Build_on_docker.md" target="_blank"> Using Docker (on MacOS)</a>,
+                    and <a href="https://github.com/sfc-aqua/quisp/blob/master/doc/Build_on_windows.md" target="_blank"> on Windows </a>. </p>
+                    
+            </div>
+            
+            </div>
+          </div>
+          <div class="col-sm-1">
+    
+          </div>
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-sm-1">
+    
+          </div>
+    
+          <div class="col-sm-10">
+            <h2 class="font-weight-normal"> Additional Information </h2>
+            <hr>
+            <div  class="font-weight-light">
+
+            <p> This is the image of one of the simulations available in QuISP. <br>
+            Also, if you have any questions about QuISP, click the Slack logo below and join in the official Slack channel!! </p>
+                    
+            </div>
+            
+            </div>
+          </div>
+          <div class="col-sm-1">
+    
+          </div>
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10 text-center">
+                <a href="https://github.com/sfc-aqua/quisp" target="_blank"><img style="margin-right: 20px; margin-left: 20px" src="./img/GitHub_logo.png", width="128", alt="github_logo", title="github_AQUA_QUISP"></a>
+                
+                <a href="https://join.slack.com/t/aqua-quisp/shared_invite/zt-cep0um4y-S~khefdyAWGUmDVuZXqd1A" target="_blank"><img style="margin-right: 20px; margin-left: 20px" src="./img/appIcon_desktop.png", width="128", alt="slack_logo", title="AQUA_QUISP"></a>
+                
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+
+    <div style="height: 10vh;">
+
+    </div>
+
+
+
+</div>
+
+
+<!-- End Tabs with icons on Card -->
+</div>
+
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; AQUA, Keio University</small>
+    </div>
+  </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
